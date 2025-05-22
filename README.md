@@ -1,10 +1,10 @@
-﻿# TravelAdvisor 🚢🌊
+﻿# _TravelAdvisor_ 🚢🌊
 
-  **TravelAdvisor** is an AI-powered travel planning assistant that uses a multi-agent system built with [CrewAI](https://docs.crewai.com/). It creates a **personalized 7-day itinerary** based on your starting point, destination, travel date, and interests — all powered by real-time data and intelligent agents.
+  **TravelAdvisor** is an AI-powered travel planning assistant that uses a multi-agent system built with [CrewAI](https://docs.crewai.com/). It creates a **personalized 7-day itinerary** based on your _starting point, destination, travel date, and interests_ — all powered by real-time data and intelligent agents.
 
   ## ✨ Overview
 
-  TravelAdvisor leverages two key agents working together:
+  _TravelAdvisor_ leverages two key agents working together:
   
   - **Local Tour Guide** – Finds places, events, and activities based on your interests.
   - **Travel Concierge** – Handles logistics, costs, and ensures a balanced itinerary.
@@ -16,6 +16,12 @@
   - ✅ **Agent + Task configurations in YAML**
   - ✅ **Groq-powered LLaMA 3.3 70B for reasoning and generation**
 
+Output Screenshots:
+1. Local Tour Guide's response
+![Local Tour Guide's Output](https://github.com/user-attachments/assets/72104080-9f1a-4547-8393-7bc19d8f2963)
+
+2. Travel Concierge's response
+[Image coming soon]
 ## ⚙️ Installation
 Clone the repo
   ```bash
