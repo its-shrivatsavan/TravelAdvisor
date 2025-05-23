@@ -21,7 +21,10 @@ Output Screenshots:
 ![Local Tour Guide's Output](https://github.com/user-attachments/assets/72104080-9f1a-4547-8393-7bc19d8f2963)
 
 2. Travel Concierge's response
-[Image coming soon]
+![image](https://github.com/user-attachments/assets/01321111-d590-4cdf-8c9c-82b71f104a8e)
+![image](https://github.com/user-attachments/assets/6c19f89b-b71b-492b-9d5b-bc6b21029b9a)
+
+
 ## ⚙️ Installation
 Clone the repo
   ```bash
