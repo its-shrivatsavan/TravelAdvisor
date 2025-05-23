@@ -1,36 +1,19 @@
 plan_itinerary:
   description: |
-    **Tasks**: Develop a 7-Day Travel Itinerary  
-    **Description**:  
-        Expand the city guide into a full 7-day travel itinerary with detailed  
-        per-day plans, including weather forecasts, places to eat, packing suggestions,  
-        and budget breakdown. You MUST suggest actual places to go to, actual hotels to stay, and actual restaurants to go to.  
-        This itinerary should cover all aspects of the trip, from arrival to departure, integrating the city guide information with practical travel logistics. 
-        Use only plain text strings for any tool inputs. 
-    **Parameters**:  
-        - City: {city}  
-        - Trip Date: {travel_dates}  
-        - Traveler Interests: {interests}  
-
-    **Note**: If you do your BEST WORK, I'll give you a $1,000,000 commission!
+    Create a 7-day travel itinerary with daily plans, weather forecasts, hotel and restaurant suggestions, packing tips, and budget details. Use only plain text strings for tool inputs.
+    parameters:
+    - City: {city}
+    - Trip Date: {travel_dates}
+    - Interests: {interests}
   expected_output: |
-    A detailed 7-day itinerary with daily plans, hotels, restaurants, weather, packing tips, and budget breakdown.
+    A complete 7-day itinerary covering daily activities, accommodations, dining, weather, packing, and budget.
 
 gather_city_info:
   description: |
-    **Tasks**: Gather In-depth City Guide Information  
-    **Description**:  
-        Compile an in-depth guide for the selected city, gathering information about  
-        key attractions, local customs, special events, and daily activity recommendations.  
-        This guide should provide a thorough overview of what the city has to offer, including  
-        hidden gems, cultural hotspots, must-visit landmarks, weather forecasts, and high-level costs. 
-        Use only plain text strings for any tool inputs. 
-
-    **Parameters**:  
-        - City: {city}  
-        - Trip Date: {travel_dates}  
-        - Traveler Interests: {interests}  
-
-    **Note**: If you do your BEST WORK, I'll give you a $1,000,000 commission!
+    Generate an in-depth city guide with attractions, events, cultural tips, daily activities, weather, and estimated costs. Use only plain text strings for tool inputs.
+    parameters:
+    - City: {city}
+    - Trip Date: {travel_dates}
+    - Interests: {interests}
   expected_output: |
-    A city guide covering attractions, local customs, events, daily activities, weather, and estimated costs.
+    A city guide with key sights, customs, events, weather, and cost overview.

@@ -41,7 +41,7 @@ class TravelAdvisorCrew:
     def local_tour_guide(self) -> Agent:
         return Agent(
             config=self.agent_config["local_tour_guide"],
-            tools=[self.search_tool],
+            tools=[self.search_tool,],
             llm=self.llm,
             verbose=True
         )
@@ -50,7 +50,7 @@ class TravelAdvisorCrew:
     def travel_concierge(self) -> Agent:
         return Agent(
             config=self.agent_config["travel_concierge"],
-            tools=[self.search_tool, self.calculate_tool],
+            tools=[self.search_tool, self.calculate_tool,],
             llm=self.llm,
             verbose=True
         )
